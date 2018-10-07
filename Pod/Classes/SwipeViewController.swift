@@ -280,7 +280,7 @@ open class SwipeViewController: UINavigationController, UIPageViewControllerDele
             }
             
             
-            selectionBar.frame = CGRect(x: selectionBarOriginX - (xFromCenter/newRatio), y: selectionBar.frame.origin.y, width: selectionBarWidth, height: selectionBarHeight)
+            selectionBar.frame = CGRect(x: selectionBarOriginX - (xFromCenter/newRatio), y: selectionBar.frame.origin.y + 10, width: selectionBarWidth, height: selectionBarHeight)
             return
             
         }
